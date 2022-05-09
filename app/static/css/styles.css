@@ -1,0 +1,56 @@
+body{
+  background-color: #F9EBC8;
+  text-align: center;
+}
+
+.container{
+  background-color: #DAE5D0;
+  padding: 5% 3% 3% 5%;
+  margin-top: 10px;
+}
+
+.title{
+  font-size: 50px;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+}
+
+.labels{
+  font-size: large;
+  font-weight: 500;
+  margin-left: 0;
+  text-align: left;
+}
+
+
+input[type="file"] {
+  font-size: 0.9em;
+  padding-top: 0.35rem;
+  text-align: center;
+  cursor: pointer;
+}
+
+.Mform{
+  /* background-color: aquamarine; */
+  width: 700px;
+  margin: 0 auto;
+}
+
+input[type="file"]{
+  display: none;
+}
+label{
+  cursor:pointer;
+  border-width: 2px;
+  border-color: black;
+}
+#imageName{
+  color:green;
+}
+.fileDiv{
+  text-align:center;
+  padding:3%;
+  border:thin solid black;
+  width: 400px;
+  margin: 0 auto;
+}
